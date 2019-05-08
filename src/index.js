@@ -1,8 +1,13 @@
+// import {
+//   proxyServer as ProxyServer,
+//   isRootCAFileExists,
+//   generateRootCA,
+// } from 'dora-anyproxy';
 import {
   proxyServer as ProxyServer,
   isRootCAFileExists,
   generateRootCA,
-} from 'dora-anyproxy';
+} from 'anyproxy';
 import getRule from './getRule';
 
 if (!isRootCAFileExists()) generateRootCA();
